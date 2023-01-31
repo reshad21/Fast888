@@ -27,8 +27,50 @@ h6 {
     font-family: arial;
 }
 
+.container_whole {
+    width: 100%;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
 :root {
     --common-color: #d0c66d;
 }
 
 /* background: var(--common-color); */
+
+
+
+
+
+
+
+/**
+    media query css
+*/
+@media only screen and (max-width: 1440px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 445px) {}
