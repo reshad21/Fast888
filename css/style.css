@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: arial, sans-sarif;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 ul {
     list-style: none;
@@ -69,7 +69,7 @@ h6 {
 }
 
 /* ============== section three =============== */
-.common-section h2 {
+/* .common-section h2 {
     background-image: url(../images/Barregis.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,24 +84,12 @@ h6 {
 .common-section img {
     width: 100%;
     object-fit: cover;
-}
-
-/* ============== footer ========== */
-.footer {
-    background-color: #d0c66d;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-}
+} */
 
 .common-section-change {
     display: flex;
     flex-direction: column;
 }
-
-/* ============== //footer ========== */
 
 .common-section-change h2 {
     background-image: url(../images/Barregis.png);
@@ -116,10 +104,52 @@ h6 {
 }
 
 .common-section-change img {
-    /* height: 50px; */
     display: block;
     object-fit: cover;
 
+}
+
+/* ============== footer ========== */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/Barunder.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img_fluid {
+    width: 100%;
+    display: inline-block;
+}
+
+.playsection {
+    position: relative;
+}
+
+.playsection :nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -50%);
+    width: 70%;
+}
+
+/* ============== //footer ========== */
+.adjustment {
+    height: 220px;
+}
+
+.margintop {
+    margin-top: 70px;
 }
 
 
