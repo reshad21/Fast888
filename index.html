@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast888</title>
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- header section start-->
@@ -33,6 +35,36 @@
     <!-- header section end -->
 
     <!-- slider section start -->
+    <div class="container_whole">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/b1.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination custome_indicator"></div>
+        </div>
+          
+    </div>
     <!-- slider section end -->
 
     <!-- section three start -->
@@ -101,6 +133,18 @@
     <!-- footer section end -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 </html>
 
