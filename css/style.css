@@ -44,6 +44,24 @@ h6 {
 
 /* background: var(--common-color); */
 
+/* ================ header ============ */
+.header {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/Bartop.png);
+    background-size: cover;
+    background-position-x: calc(100%);
+    background-position-y: calc(100% - 25%);
+    background-repeat: no-repeat;
+}
+
+.h-mdl img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
 
 
 
