@@ -49,7 +49,7 @@ h6 {
 }
 
 .margintop {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .default_margin {
@@ -126,7 +126,6 @@ h6 {
 
 /* ============== footer ========== */
 .footer {
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -174,8 +173,8 @@ h6 {
 
 .footer-second :nth-child(2) {
     position: absolute;
-    top: 51px;
-    left: -24px;
+    top: 58px;
+    left: -4px;
 }
 
 .footer-third :nth-child(2) {
@@ -188,6 +187,16 @@ h6 {
     position: absolute;
     top: 47px;
     left: -3px;
+}
+
+.registration img {
+    position: absolute;
+    left: 24px;
+    top: 19px;
+    background-image: url(../images/Barregis.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
 }
 
 /**
@@ -214,12 +223,32 @@ h6 {
     .container {
         width: 100%;
     }
+
+    .registration img {
+        position: absolute;
+        left: 24px;
+        top: 22px;
+        background-image: url(../images/Barregis.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
+    }
 }
 
 @media only screen and (max-width: 991px) {
 
     .container {
         width: 100%;
+    }
+
+    .registration img {
+        position: absolute;
+        left: 24px;
+        top: 26px;
+        background-image: url(../images/Barregis.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
     }
 }
 
@@ -228,6 +257,16 @@ h6 {
     .container {
         width: 100%;
     }
+
+    .registration img {
+        position: absolute;
+        left: 24px;
+        top: 24px;
+        background-image: url(../images/Barregis.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -235,10 +274,58 @@ h6 {
     .container {
         width: 100%;
     }
+
+
+
+    .footer-first :nth-child(2) {
+        position: absolute;
+        top: 41px;
+        left: 0px;
+    }
+
+    .footer-second :nth-child(2) {
+        position: absolute;
+        top: 44px;
+        left: 0px;
+    }
+
+    .footer-third :nth-child(2) {
+        position: absolute;
+        top: 26px;
+        left: -2px;
+    }
+
+    .footer-fourth :nth-child(2) {
+        position: absolute;
+        top: 38px;
+        left: -3px;
+    }
+
+    .registration img {
+        position: absolute;
+        left: 24px;
+        width: 29%;
+        top: 22px;
+        background-image: url(../images/Barregis.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
+    }
+
 }
 
 @media only screen and (max-width: 445px) {
     .container {
         width: 100%;
+    }
+
+    .registration img {
+        position: absolute;
+        left: 24px;
+        top: 20px;
+        background-image: url(../images/Barregis.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
     }
 }
