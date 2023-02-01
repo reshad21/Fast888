@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     font-family: arial, sans-sarif;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-} */
+}
 
 ul {
     list-style: none;
@@ -85,12 +85,13 @@ h6 {
 
 /* ============== search section start ============== */
 .search_section {
-    padding: 20px 40px;
+    padding: 20px 6px;
 }
 
 .search_section form {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 select {
@@ -99,10 +100,12 @@ select {
     appearance: none;
     background-image: none;
     background-color: #a505ff;
+    background-image: url(../images/โปรโมชั่น.png);
+    outline: none;
 }
 
 .frm-lft {
-    width: 162px;
+    width: 21%;
     padding: 10px;
     position: relative;
 }
@@ -133,6 +136,28 @@ select {
     color: aliceblue;
 }
 
+.frm-rght {
+    width: 79%;
+    position: relative;
+}
+
+.frm-rght i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    color: white;
+}
+
+.frm-rght input {
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    color: white;
+    padding: 7px 31px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
 
 
 
@@ -355,6 +380,14 @@ select {
         background-position: center center;
         background-repeat: no-repeat;
         border-radius: 10px 10px 0 0;
+    }
+
+    .frm-lft {
+        width: 30%;
+    }
+
+    .frm-rght {
+        width: 70%;
     }
 
 }
