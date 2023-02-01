@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: arial, sans-sarif;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-}
+} */
 
 ul {
     list-style: none;
@@ -83,23 +83,60 @@ h6 {
     object-fit: cover;
 }
 
-/* ============== section three =============== */
-/* .common-section h2 {
-    background-image: url(../images/Barregis.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: calc(100%);
-    background-position-y: calc(100% - 25%);
-    border-radius: 5px 5px 0 0;
-    color: aliceblue;
-    padding-left: 10px;
-    font-size: 18px;
+/* ============== search section start ============== */
+.search_section {
+    padding: 20px 40px;
 }
 
-.common-section img {
+.search_section form {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: none;
+    background-color: #a505ff;
+}
+
+.frm-lft {
+    width: 162px;
+    padding: 10px;
+    position: relative;
+}
+
+.frm-lft select {
+    display: block;
+    padding: 10px 20px 10px 10px;
     width: 100%;
-    object-fit: cover;
-} */
+    border-radius: 10px;
+    color: white;
+}
+
+.frm-lft .arrow-div {
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.frm-lft .arrow-div :nth-child(1) {
+    color: aliceblue;
+}
+
+.frm-lft .arrow-div :nth-child(2) {
+    margin-top: -15px;
+    color: aliceblue;
+}
+
+
+
+
+/* ============== section three =============== */
 
 .common-section-change {
     display: flex;
