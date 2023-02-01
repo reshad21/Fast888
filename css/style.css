@@ -100,7 +100,8 @@ select {
     appearance: none;
     background-image: none;
     background-color: #a505ff;
-    background-image: url(../images/โปรโมชั่น.png);
+    /* background-image: url(../images/โปรโมชั่น.png);
+    background-repeat: no-repeat; */
     outline: none;
 }
 
