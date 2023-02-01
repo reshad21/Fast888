@@ -11,6 +11,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 ul {
@@ -132,7 +133,7 @@ h6 {
     position: fixed;
     color: aliceblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url(../images/Barunder.png);
     background-repeat: no-repeat;
@@ -158,6 +159,36 @@ h6 {
     width: 70%;
 }
 
+.footer-first,
+.footer-second,
+.footer-third,
+.footer-fourth {
+    position: relative;
+}
+
+.footer-first :nth-child(2) {
+    position: absolute;
+    top: 55px;
+    left: -7px;
+}
+
+.footer-second :nth-child(2) {
+    position: absolute;
+    top: 51px;
+    left: -24px;
+}
+
+.footer-third :nth-child(2) {
+    position: absolute;
+    top: 35px;
+    left: -2px;
+}
+
+.footer-fourth :nth-child(2) {
+    position: absolute;
+    top: 47px;
+    left: -3px;
+}
 
 /**
     media query css
